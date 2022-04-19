@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: checkout
-      uses: actions/chechout@v3
+      uses: actions/checkout@v3
     - name: setup python 3.8
       uses: actions/setup-python@v3
